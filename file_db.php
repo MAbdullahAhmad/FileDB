@@ -39,7 +39,7 @@
 
       elseif (count(array_values($data)) == count($this->fields)){
         $fdat = $this->get();
-        $fdat []= $data;
+        $fdat []= array_values($data);
         $this->put($fdat);
         return $this;
       }
@@ -181,6 +181,5 @@
       file_put_contents($this->file, serialize($data));
       return $this;
     }
-
   }
 ?>
