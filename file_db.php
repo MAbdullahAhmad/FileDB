@@ -25,7 +25,7 @@
         throw new FileDBError('FileName cannot be empty.');
 
       // Fields
-      if(!empty($file))
+      if(!empty($fields))
         $this->fields = $fields;
       else
         throw new FileDBError('Fields Cannot be empty');
