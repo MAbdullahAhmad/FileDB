@@ -175,9 +175,6 @@
 
     // put() : Put Data to DBFile
     private function put(array $data){
-      // ftruncate($f=fopen($this->file, "r+"), 0);
-      // fclose($f);
-
       file_put_contents($this->file, serialize($data));
       return $this;
     }
