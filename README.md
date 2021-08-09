@@ -11,7 +11,7 @@ Records for each entity are stored in a seperate file.
   1. **Extract** at any location in project. (Better be in ```lib``` directory).
   2. Include where needed.
   3. Create an entity and it's file with statement : 
-    ```php
+    ```
     $users = new FileDB('./path/to/file.fdb', ['id', 'name']);
     ```
   3. **Enjoy** with CRUD with simple methods:
