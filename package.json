@@ -2,7 +2,7 @@
   "name": "php_filedb",
   "version": "1.0.0",
   "description": "Simple PHP file-based database.",
-  "main": "index.php",
+  "main": "index.js",
   "scripts": {
     "test": "mocha"
   },
