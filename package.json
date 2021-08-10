@@ -1,0 +1,15 @@
+{
+  "name": "@abdullah_ahmad/php_filedb",
+  "version": "1.0.0",
+  "description": "Simple PHP file-based database.",
+  "main": "index.php",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "php_file_db",
+    "php_filedb"
+  ],
+  "author": "Abdullah Ahmad",
+  "license": "MIT"
+}
