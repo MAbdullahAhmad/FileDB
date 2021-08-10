@@ -1,5 +1,5 @@
 {
-  "name": "@abdullah_ahmad/php_filedb",
+  "name": "php_filedb",
   "version": "1.0.0",
   "description": "Simple PHP file-based database.",
   "main": "index.php",
@@ -7,6 +7,8 @@
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [
+    "filedb",
+    "file_db",
     "php_file_db",
     "php_filedb"
   ],
